@@ -18,7 +18,7 @@ license.prototype.toString = function() {
       licenseName = "Creative Commons ";
       switch (urlArray[4]) {
         case "by":
-          licenseName += "Attribute ";
+          licenseName += "Attribution ";
           break;
         case "by-nd":
           licenseName += "Attribution-NoDerivs ";
